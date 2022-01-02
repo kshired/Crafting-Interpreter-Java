@@ -112,6 +112,7 @@ public class Scanner {
                     advance();
                     if(peek() != '/'){
                         Lox.error(line, "Unexpected character.");
+                        break;
                     }
                     advance();
                 }
