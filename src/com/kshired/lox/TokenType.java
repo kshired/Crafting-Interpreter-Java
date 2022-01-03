@@ -1,4 +1,4 @@
-package com.kshired;
+package com.kshired.lox;
 
 public enum TokenType {
     // Single-character tokens.

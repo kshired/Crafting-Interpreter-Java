@@ -1,4 +1,4 @@
-package com.kshired;
+package com.kshired.lox;
 
 public class Token {
     private final TokenType type;
@@ -11,6 +11,22 @@ public class Token {
         this.lexeme = lexeme;
         this.literal = literal;
         this.line = line;
+    }
+
+    public TokenType getType() {
+        return type;
+    }
+
+    public String getLexeme() {
+        return lexeme;
+    }
+
+    public Object getLiteral() {
+        return literal;
+    }
+
+    public int getLine() {
+        return line;
     }
 
     @Override

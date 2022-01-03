@@ -26,6 +26,10 @@ replay_pid*
 # intellij production
 /out
 .idea
+*.iml
 
 # test files
 *.lox
+
+# Mac files
+.DS_Store

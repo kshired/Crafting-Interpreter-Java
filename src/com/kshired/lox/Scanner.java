@@ -1,11 +1,11 @@
-package com.kshired;
+package com.kshired.lox;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.kshired.TokenType.*;
+import static com.kshired.lox.TokenType.*;
 import static java.lang.Character.isDigit;
 
 public class Scanner {

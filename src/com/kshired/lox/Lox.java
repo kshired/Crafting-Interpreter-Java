@@ -1,4 +1,4 @@
-package com.kshired;
+package com.kshired.lox;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -34,7 +34,7 @@ public class Lox {
         BufferedReader bufReader = new BufferedReader(input);
 
         for(;;){
-            System.out.println("> ");
+            System.out.print("> ");
             String line = bufReader.readLine();
             if(line == null){
                 break;
